@@ -1,4 +1,4 @@
 def test_hello_google(browser):
-    browser.get("https://google.com")
+    browser.get("https://mail.ru/")
 
-    assert "Google" in browser.title, "Неверный тайтл у сайта"
+    assert "Mail.ru" in browser.title, "Неверный тайтл у сайта"
