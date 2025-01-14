@@ -10,7 +10,7 @@ def test_hello_gosuslugi(browser):
     assert "Портал государственных услуг" in browser.title, "Неверный тайтл у сайта"
 
 
-def test_hello_gosuslugi_test(browser):
+def test_hello_gosuslugi_1(browser):
     browser.get("https://www.gosuslugi.ru/")
 
     assert "Портал государственных услуг" in browser.title, "Неверный тайтл у сайта"
